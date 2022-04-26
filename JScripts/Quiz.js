@@ -120,7 +120,7 @@ const quizData = [
 	 {
         question: "What is the only nation to win both the men’s and women’s world cup?",
         option_A: "United States",
-        option_B: "Netherlans",
+        option_B: "Netherlands",
         option_C: "Sweden",
         option_D: "Germany",
         correct: "option_D",
