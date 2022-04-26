@@ -163,7 +163,7 @@ const quizData = [
         option_B: "Brazil",
         option_C: "France",
         option_D: "Nethelands",
-        correct: "option_B",
+        correct: "option_C",
     },
 ];
 
@@ -215,7 +215,7 @@ function removeIFrame() {
 }
 
 function ShowScores() {
-    window.top.location.href ="scores.html";
+    window.top.location.href ="Scores.html";
 }
 
 submitBtn.addEventListener('click', () => {
