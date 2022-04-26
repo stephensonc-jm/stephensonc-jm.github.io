@@ -1,0 +1,75 @@
+﻿/* UTILITIES */
+/* LOGO */
+.heading {
+    font-size: 32px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: royalblue;
+    /*display: flex;*/
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+    li:last-child {
+        border-right: none;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+/*
+nav li {
+    display: inline-block;   
+}
+
+    nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 15px 18px;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+
+        nav li a:hover {
+            background-color: gold;
+        }
+
+*/
+nav li a:hover {
+    background-color: gold;
+}
+.home a.home {
+    background-color: yellow;
+    color: royalblue;
+}
+.contact a.contact {
+    background-color: yellow;
+    color: royalblue;
+}
+.about a.about {
+    background-color: yellow;
+    color: royalblue;
+}
+
+.scores a.scores {
+    background-color: yellow;
+    color: royalblue;
+}
+
+.rules a.rules {
+    background-color: yellow;
+    color: royalblue;
+}

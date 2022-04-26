@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="Styles/nav.css">
+    <link rel="stylesheet" href="Styles/footer.css">
+    <link rel="stylesheet" href="Styles/main.css">
+
+    <base href="index.html" target="_parent">
+</head>
+<body class="home" id="home">
+    <script id="nav" src="JScripts/nav.js"></script>
+    <main id="main" class="main">
+        <section>
+            <div id="dvHeaderInfo">
+                <p class="heading">FIFA World Cup Trivia</p>
+                <p class="subheading">World cup knowledge base.</p>
+                <span><img class="displayed" src="Graphics/worldcuptrophy.gif" /></span>
+                <span class="btnPlay"><button id="btnPlay" class="play" onclick="document.getElementById('dvModal').style.display='block'">Let's Play</button></span>
+            </div>
+        </section>
+        <section>
+            <div id="dvModal" class="modal">
+                <div class="modal-content animate-top faceup">
+                    <header class="container modaltop">
+                        <span onclick="document.getElementById('dvModal').style.display='none'" class="button display-topright">&times;</span>
+                        <h2><span>Quiz Rules</span></h2>
+                    </header>
+                    <div class="container">
+                        <p class="text">1. You will have only <span>15 seconds</span> per each question.</p>
+                        <p class="text">2. Once you select your answer, it can't be undone.</p>
+                        <p class="text">3. You can't select any option once time goes off.</p>
+                        <p class="text">4. You can't exit from the Quiz while you're playing.</p>
+                        <p class="text">5. You'll get points on the basis of your correct answers.</p>
+                    </div>
+                    <span class="buttons">                       
+                            <button id="btnclose" class="cancel">Cancel</button>
+                            <button id="btnStart" class="start">Start</button>                       
+                    </span>
+                </div>
+            </div>
+            <div id="dvQuiz" class="dvQuiz">
+                <iframe id="iframeQuiz" src="quiz.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0"></iframe>
+            </div>
+        </section>      
+    </main>
+    <script id="nav" src="JScripts/main.js"></script>
+    <script id="footer" src="JScripts/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Styles/quiz.css">
+</head>
+<body>
+    <main>
+        <section id="dvPlayerInfo" class="dvPlayerInfo">
+            <p></p>
+            <p>Enter player name</p>
+            <p><input type="text" id="txtplayername" class="textbox" /></p>
+            <p class="btnPlay"><button id="btnStart" class="play">Start</button></p>
+        </section>
+        <section class="dvQuiz" id="dvQuiz">
+            <section class="dvQuizContainer" id="quiz">
+                <header>
+                    <div class="timer">
+                        <p class="time_left_txt">Time Left</p>
+                        <p id="timer_sec" class="timer_sec">15</p>
+                    </div>
+                    <div class="time_line"></div>
+
+                </header>
+                <div class="quiz-header">
+                    <h2 id="question">Questions</h2>
+                    <div class="option_list">
+                        <ul>
+                            <li>
+                                <input type="radio" name="answer" id="option_A" class="answer">
+                                <label for="option_A" id="lblOption_A" class="answer-selected">Answer</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="answer" id="option_B" class="answer">
+                                <label for="option_B" id="lblOption_B" class="answer-selected">Answer</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="answer" id="option_C" class="answer">
+                                <label for="option_C" id="lblOption_C" class="answer-selected">Answer</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="answer" id="option_D" class="answer">
+                                <label for="option_D" id="lblOption_D" class="answer-selected">Answer</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="btnNext">
+                    <button id="submit" class="button" disabled><span>Next </span></button>
+                </div>
+            </section>
+        </section>
+
+        <section id="ChampionImg" class="flex-container">
+            <div>
+                <p><label id="lblMessage">Congratulation, You answered all questions correctly.</label></p>
+                <p><img class="ChampionImg" src="Graphics/world-cup-fifa_flame_2022.gif" /></p>
+                <p><label id="lblTopScore">Your name has been added to our list of <a href="scores.html" target="_blank">top scorers</a>.</label><p>
+                <p><button id="btnExit" class="button">OK</button></p>
+            </div>      
+          
+        </section>
+      
+
+        <script src="JScripts/Quiz.js"></script>
+
+    </main>
+
+</body>
+</html>
