@@ -235,8 +235,6 @@ iframe {
     }
 
 
-/*
-
 .dvscores {
     display: flex;
     padding-top: 20px;
@@ -248,8 +246,6 @@ iframe {
     font-size: 20px;
 }
 
-
-*/
 .topscores {
     display: flex;
     justify-content: center;

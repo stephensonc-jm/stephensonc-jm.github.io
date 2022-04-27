@@ -9,7 +9,7 @@ function HighScores() {
     playerlog = localStorage.getItem("playerlog");
     if (playerlog === null || playerlog === "") {
         Scores.innerHTML = `
-           <span class="dvscores">High Score Listing</span>
+           <p class="heading"><span>High Score Listing</span></p>
            <span class="topscores"> No Scores yet.</span> `
     }
 
@@ -18,7 +18,7 @@ function HighScores() {
         Scores.innerHTML = displayscores.join("<br>");
 
         Scores.innerHTML = `
-           <span class="dvscores">High Score Listing</span>
+           <p class="heading"><span>High Score Listing</span></p>
            <span class="topscores"> ${displayscores.join("<br>")}</span> `
     }
 
