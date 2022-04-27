@@ -14,7 +14,7 @@
     <script id="nav" src="JScripts/nav.js"></script>
     <main>
     <article>
-	 <p class="heading">
+	 <p class="subheading">
            <span>Contact Us</span>
      </p>
 	</article>

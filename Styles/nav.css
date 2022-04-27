@@ -1,8 +1,5 @@
 ﻿/* UTILITIES */
 /* LOGO */
-.heading {
-    font-size: 32px;
-}
 
 ul {
     list-style-type: none;
@@ -10,12 +7,14 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: royalblue;
+	height 100%;
     /*display: flex;*/
 }
 
 li {
     float: left;
     border-right: 1px solid #bbb;
+	height 100%;
 }
     li:last-child {
         border-right: none;
@@ -25,51 +24,68 @@ li {
         display: block;
         color: white;
         text-align: center;
-        padding: 14px 16px;
+        padding: 0px 16px;
         text-decoration: none;
     }
 
-/*
-nav li {
-    display: inline-block;   
+body {
+/*font-family: cursive;*/
+font-family: Times New Roman;
+}
+a {
+ text-decoration: none;
+}
+li {
+ list-style: none;
+}
+/* NAVBAR STYLING STARTS */
+.nav {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 20px;
+ background-color: royalblue;
+ color: #fff;
 }
 
-    nav li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 15px 18px;
-        text-decoration: none;
-        font-family: sans-serif;
-    }
+.nav-links a {
+ color: #fff;
+}
 
-        nav li a:hover {
-            background-color: gold;
-        }
+.menu {
+ display: flex;
+ gap: 1em;
+ font-size: 18px;
+}
 
-*/
 nav li a:hover {
-    background-color: gold;
+   /* background-color: gold;*/
+   color: gold;
 }
 .home a.home {
-    background-color: yellow;
-    color: royalblue;
+    /*background-color: yellow;
+    color: royalblue;*/
+	color: yellow;
 }
 .contact a.contact {
-    background-color: yellow;
-    color: royalblue;
+     /*background-color: yellow;
+    color: royalblue;*/
+	color: yellow;
 }
 .about a.about {
-    background-color: yellow;
-    color: royalblue;
+   /* background-color: yellow;
+    color: royalblue;*/
+	color: yellow;
 }
 
 .scores a.scores {
-    background-color: yellow;
-    color: royalblue;
+   /* background-color: yellow;
+    color: royalblue;*/
+	color: yellow;
 }
 
 .rules a.rules {
-    background-color: yellow;
-    color: royalblue;
+   /* background-color: yellow;
+    color: royalblue;*/
+	color: yellow;
 }

@@ -1,7 +1,7 @@
 ﻿.heading {
     text-align: center;
-    color: red;
-    font-size: 45px;
+    color: royalblue;
+    font-size: 24px;
     padding: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -9,11 +9,16 @@
 }
 .subheading {
     text-align: center;
-    color: royalblue;
-    font-size: 30px;
+    color: red;
+    font-size: 20px;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+.text {
+    color: red;
+    margin: 25px;
+    padding: 2px;
 }
 
 .bodytext {
