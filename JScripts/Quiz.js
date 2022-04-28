@@ -10,12 +10,7 @@ const lblOption_C = document.getElementById('lblOption_C')
 const lblOption_D = document.getElementById('lblOption_D')
 const submitBtn = document.getElementById('submit')
 var playerName
-//const playerName = document.getElementById('txtplayername')
-//const AudioCountDown = document.getElementById("countDown"); 
 
-
-
-//document.getElementById("btnExit").addEventListener("click", HomePage);
 
 function ValidateTextBox() {
     if (document.getElementById("txtplayername").value.trim() == "") {
@@ -167,15 +162,6 @@ const quizData = [
     },
 ];
 
-/*const quiz = document.getElementById('quiz')
-const answerEls = document.querySelectorAll('.answer')
-const questionEl = document.getElementById('question')
-const lblOption_A = document.getElementById('lblOption_A')
-const lblOption_B = document.getElementById('lblOption_B')
-const lblOption_C = document.getElementById('lblOption_C')
-const lblOption_D = document.getElementById('lblOption_D')
-const submitBtn = document.getElementById('submit')
-*/
 let currentQuiz = 0
 let score = 0
 
@@ -276,9 +262,9 @@ submitBtn.addEventListener('click', () => {
             }
             else {
                 var quiz = document.getElementById("quiz")
-               // var img = document.createElement("img");
                 var scorepercentile = (score/quizData.length)*100
-                quiz.innerHTML = `
+                
+				quiz.innerHTML = `
            <h2 class="resultstextpass">Your score is ${scorepercentile}%. You answered ${score}/${quizData.length} questions correctly</h2>
            <section class="quizresults"><img src="Graphics/medal.JPG"></section>          
            <section class="quizresults"><button onclick="location.reload()"  class="button">Play Again</button>

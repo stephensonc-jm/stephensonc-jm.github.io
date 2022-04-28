@@ -1,5 +1,14 @@
-﻿/* UTILITIES */
-/* LOGO */
+﻿
+body {
+/*font-family: cursive;*/
+font-family: Times New Roman;
+}
+a {
+ text-decoration: none;
+}
+li {
+ list-style: none;
+}
 
 ul {
     list-style-type: none;
@@ -8,7 +17,6 @@ ul {
     overflow: hidden;
     background-color: royalblue;
 	height 100%;
-    /*display: flex;*/
 }
 
 li {
@@ -28,16 +36,6 @@ li {
         text-decoration: none;
     }
 
-body {
-/*font-family: cursive;*/
-font-family: Times New Roman;
-}
-a {
- text-decoration: none;
-}
-li {
- list-style: none;
-}
 /* NAVBAR STYLING STARTS */
 .nav {
  display: flex;
