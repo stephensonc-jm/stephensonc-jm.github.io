@@ -141,7 +141,7 @@ const quizData = [
         option_A: "Sri Lanka",
         option_B: "India",
         option_C: "Barbados",
-        option_D: "Ameican Samao",
+        option_D: "American Samao",
         correct: "option_D",
     },
 	 {
